@@ -71,8 +71,8 @@ public class EVRP {
 	public static void main(String[] args) throws IOException {
 		// TODO Auto-generated method stub
 		double t1 = System.nanoTime();
-		//InstanceElectric inst = (InstanceElectric) load_instance("../data/small/input_node.txt", "../data/small/input_vehicle_type.txt", "../data/small/input_distance-time.txt");
-		InstanceElectric inst = (InstanceElectric) load_instance("../data/input_node.txt", "../data/input_vehicle_type.txt", "../data/input_distance-time.txt");
+		InstanceElectric inst = (InstanceElectric) load_instance("../data/small/input_node.txt", "../data/small/input_vehicle_type.txt", "../data/small/input_distance-time.txt");
+		//InstanceElectric inst = (InstanceElectric) load_instance("../data/input_node.txt", "../data/input_vehicle_type.txt", "../data/input_distance-time.txt");
 		double t2 = System.nanoTime();
 		double load_instance_time = (t2 - t1) / 1e9;
 		////设置模式参数
