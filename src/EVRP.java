@@ -184,7 +184,7 @@ public class EVRP {
 		double t4 = System.nanoTime();
 		System.out.println("computation time>>>" + (t4 - t1) / 1e9);
 		inst.statistics.print();
-		write_solution("result/c1_10_8_1.txt", bs);
+		write_solution("result/result.txt", bs);
 	}
 	
 	/**
